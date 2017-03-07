@@ -1,2 +1,2 @@
-def main():
+def main(event, context):
     print 'Hello'
