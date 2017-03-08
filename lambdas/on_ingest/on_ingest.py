@@ -1,7 +1,7 @@
 import boto3 as boto
 
 
-def post_file(filename, queue_name="new_files"):
+def post_file(filename):
     sqs = boto.client('sns')
     response = sqs.publish(
         TopicArn='arn:aws:sns:eu-west-2:536099501702:dd_to_extract_metadata',
