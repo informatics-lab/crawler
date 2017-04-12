@@ -1,3 +1,4 @@
 *.zip
 *.whl
 *.tfstate*
+env.py
